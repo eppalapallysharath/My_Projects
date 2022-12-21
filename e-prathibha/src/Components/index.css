@@ -1,0 +1,129 @@
+.From-Container {
+  margin-top: 50px;
+  border: 1px solid rosybrown;
+  width: 30%;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+/*  */
+.home-exam-img {
+  width: 80px;
+  padding: 15px;
+}
+
+.home-card-main {
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  padding: 10px;
+}
+.card-body {
+  display: flex;
+  width: 500px;
+}
+.home-card-text {
+  padding: 10px;
+}
+.home-card-button {
+  width: 100px;
+  align-self: center;
+}
+
+/*  */
+
+.exam-main-container {
+  text-align: center;
+}
+.examCard {
+  width: 380px;
+  background-color: #2f363d;
+  color: #ecece9;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 20px;
+  cursor: pointer;
+}
+.mainCard {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+}
+.exam-card-ins {
+  display: flex;
+  justify-content: space-around;
+  color: brown;
+  border-bottom: 1px solid palevioletred;
+}
+.exam-option {
+  margin: 5px 50px;
+  color: darkcyan;
+}
+
+.exam-card {
+  border: 1px solid #8c3434;
+  width: auto;
+  height: auto;
+  margin: 10px 3px;
+}
+
+.examQuestions{
+    border-radius: 10px;
+    width: 60em;
+    padding: 10px 50px;
+    height: 40em;
+}
+.examQuestionDetails{
+  display: flex;
+  color: brown;
+  justify-content: space-between;
+  font-size: larger;
+  font-style: oblique;
+  font-weight: 500;
+  border: 1px solid black;
+}
+.examContainer{
+  border: 1px solid black;
+  height: auto;
+}
+.examQues{
+  color: rebeccapurple;
+  padding: 20px 10px;
+    text-align: justify;
+    font-family: ui-rounded;
+    font-size: large
+}
+
+.examQuesOption{
+  color: darkred;
+  margin-left: 70px;
+  font-family: ui-rounded;
+  font-size: large;
+}
+
+.examButtons{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.totalQuestionPaper{
+  height: fit-content;
+    border: 1px solid black;
+    padding: 50px 20px;
+    border-radius: 20px;
+    display: flex;
+}
+.mainExamContainer{
+margin-top: 40px;
+    display: flex;
+}
+.payment{
+  cursor: pointer;
+}
