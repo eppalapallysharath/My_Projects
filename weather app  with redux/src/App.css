@@ -1,0 +1,29 @@
+
+.App{
+    text-align: center;
+    border: 1px solid #fcbd;
+    width: 20em;
+    background-image: url(media/SL_042221_42420_05.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 42em;
+    color: indigo;
+}
+.App-header{
+    color: yellow;
+    margin-top: 20px;
+    /* background-color: cornsilk; */
+}
+input[type=text] {
+    background-color: antiquewhite;
+}
+
+input[type=button]{
+    color: crimson;
+    background-color: burlywood;
+}
+
+input[type=button]:hover{
+    color:darkblue;
+    background-color: olivedrab;
+}
